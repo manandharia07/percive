@@ -1,122 +1,112 @@
-# Next.js + Tailwind CSS + TypeScript Starter and Boilerplate
+# DevConf
 
-<div align="center">
-  <h2>🔋 ts-nextjs-tailwind-starter</h2>
-  <p>Next.js + Tailwind CSS + TypeScript starter packed with useful development features.</p>
-  <p>Made by <a href="https://theodorusclarence.com">Theodorus Clarence</a></p>
+[![DEVCONF BANNER](/public/static/gh_banner.png)](https://dev-conf.vercel.app/)
 
-[![GitHub Repo stars](https://img.shields.io/github/stars/theodorusclarence/ts-nextjs-tailwind-starter)](https://github.com/theodorusclarence/ts-nextjs-tailwind-starter/stargazers)
-[![Depfu](https://badges.depfu.com/badges/fc6e730632ab9dacaf7df478a08684a7/overview.svg)](https://depfu.com/github/theodorusclarence/ts-nextjs-tailwind-starter?project_id=30160)
-[![Last Update](https://img.shields.io/badge/deps%20update-every%20sunday-blue.svg)](https://shields.io/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/mit/) [![Issues](https://img.shields.io/github/issues/WebXDAO/DevConf)](https://github.com/WebXDAO/DevConf/issues) [![Contributors](https://img.shields.io/github/contributors/WebXDAO/DevConf)](https://github.com/WebXDAO/DevConf/graphs/contributors) ![Forks](https://img.shields.io/github/forks/WebXDAO/DevConf) ![Stars](https://img.shields.io/github/stars/WebXDAO/DevConf)
 
-</div>
+## What is `<DevConf/>`
 
-## Features
+DevConf is a community driven initiative to find online conferences and events for developers. It is a web app that lets you find online events that are happening around the world. This project is still in its early stages and we are looking for contributors to make this project a success.
 
-This repository is 🔋 battery packed with:
+## 👨‍💻 Demo
 
-- ⚡️ Next.js 13
-- ⚛️ React 18
-- ✨ TypeScript
-- 💨 Tailwind CSS 3 — Configured with CSS Variables to extend the **primary** color
-- 💎 Pre-built Components — Components that will **automatically adapt** with your brand color, [check here for the demo](https://tsnext-tw.thcl.dev/components)
-- 🃏 Jest — Configured for unit testing
-- 📈 Absolute Import and Path Alias — Import components using `@/` prefix
-- 📏 ESLint — Find and fix problems in your code, also will **auto sort** your imports
-- 💖 Prettier — Format your code consistently
-- 🐶 Husky & Lint Staged — Run scripts on your staged files before they are committed
-- 🤖 Conventional Commit Lint — Make sure you & your teammates follow conventional commit
-- ⏰ Release Please — Generate your changelog by activating the `release-please` workflow
-- 👷 Github Actions — Lint your code on PR
-- 🚘 Automatic Branch and Issue Autolink — Branch will be automatically created on issue **assign**, and auto linked on PR
-- 🔥 Snippets — A collection of useful snippets
-- 👀 Default Open Graph — Awesome open graph generated using [og](https://github.com/theodorusclarence/og), fork it and deploy!
-- 🗺 Site Map — Automatically generate sitemap.xml
-- 📦 Expansion Pack — Easily install common libraries, additional components, and configs
+Check out the website: https://percive.vercel.app/
 
-See the 👉 [feature details and changelog](https://github.com/theodorusclarence/ts-nextjs-tailwind-starter/blob/main/CHANGELOG.md) 👈 for more.
+## What stack is `<DevConf/>` built on?
 
-You can also check all of the **details and demos** on my blog post:
+- [React JS](hhttps://reactjs.org/)
+- [Nextjs](https://nextjs.org/)
+- [Tailwindcss](https://tailwindcss.com/)
+- [Typescript](https://www.typescriptlang.org/)
 
-- [One-stop Starter to Maximize Efficiency on Next.js & Tailwind CSS Projects](https://theodorusclarence.com/blog/one-stop-starter)
+## 👇 Prerequisites
 
-## Getting Started
+- [Node.js](https://nodejs.org/en/)
+- [Git](https://git-scm.com/)
+- [npm](https://www.npmjs.com/)
 
-### 1. Clone this template using one of the three ways:
+## 🛠️ Installation
 
-1. Use this repository as template
+1. Fork the repo
+2. Clone the repository `git clone`
+3. Run `npm i` to install all dependencies
+4. Run `npm run dev` to start the application
+5. Visit <https://localhost:3000> to view the application
 
-   **Disclosure:** by using this repository as a template, there will be an attribution on your repository.
+## 🎭 How to contribute
 
-   I'll appreciate if you do, so this template can be known by others too 😄
+1. Run installation steps
+2. Find Issue to work on or create a new issue for feature request or bug
+3. Create a new branch for your feature `git checkout -b feature-name`
+4. Make your changes
+5. Commit your changes `git commit -m "Add some feature"`
+6. Push to the branch `git push origin feature-name`
+7. Create a new pull request
 
-   ![Use as template](https://user-images.githubusercontent.com/55318172/129183039-1a61e68d-dd90-4548-9489-7b3ccbb35810.png)
+## 📒 Storybook
 
-2. Using `create-next-app`
+See what components are available
 
-   ```bash
-   npx create-next-app -e https://github.com/theodorusclarence/ts-nextjs-tailwind-starter project-name
-   ```
+1. `npm run storybook`
+2. Navigate to <http://localhost:6006>
 
-3. Using `degit`
+## 🎉 Contributing to Storybook
 
-   ```bash
-   npx degit theodorusclarence/ts-nextjs-tailwind-starter YOUR_APP_NAME
-   ```
+1. Create a story file in the its component folder. And if it is page then use `stories` folder
+2. Check type for the Props and add them to the story
+3. Run npm run storybook to see the added components and visit <http://localhost:6006> to interact with them in the browser
 
-4. Deploy to Vercel
+## ➕ To Add Your Event
 
-   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Ftheodorusclarence%2Fts-nextjs-tailwind-starter)
+1. Select issue template `Add Event`
+2. Fill out the form
+3. And create the Issue.
 
-### 2. Install dependencies
+## 📚 Guildlines for adding events
 
-It is encouraged to use **yarn** so the husky hooks can work properly.
+1. Make sure the event is Online
+2. Type of the data you enter should be correct
 
-```bash
-yarn install
+```js
+title: 'Event Name';
+description: 'Description should be 20-30 words not more then that';
+date: '16/11/2022 10:00 IST'; // DD/MM/YYYY HH:MM TIME-ZONE
+link: 'Link to Register Page';
+themes: 'DEVOPS, WEB3, BLOCKCHAIN'; // themes sepreated by comma
+social: 'Link to other social media';
 ```
 
-### 3. Run the development server
+## 🛡️ License
 
-You can start the server using this command:
+This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details
 
-```bash
-yarn dev
-```
+## 👥 Team
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. You can start editing the page by modifying `src/pages/index.tsx`.
+- [@Chandraprakash-Darji](https://github.com/Chandraprakash-Darji)
+- [@Tirth Bhagwat](https://github.com/tirth-bhagwat)
+- [@Manan Soni](https://github.com/manan-Soni)
+- [@Manan Dharia](https://github.com/manandharia07)
 
-### 4. Change defaults
+## Upcoming features:
 
-There are some things you need to change including title, urls, favicons, etc.
 
-Find all comments with !STARTERCONF, then follow the guide.
 
-Don't forget to change the package name in package.json
 
-### 5. Commit Message Convention
 
-This starter is using [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/), it is mandatory to use it to commit changes.
+## 🚀 Deploy on Vercel
 
-## Projects using ts-nextjs-tailwind-starter
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-<!--
-TEMPLATE
-- [sitename](https://sitelink.com) ([Source](https://github.com/githublink))
-- [sitename](https://sitelink.com)
--->
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-- [theodorusclarence.com](https://theodorusclarence.com) ([Source](https://github.com/theodorusclarence/theodorusclarence.com))
-- [Notiolink](https://notiolink.thcl.dev/) ([Source](https://github.com/theodorusclarence/notiolink))
+## 💪 Thanks to all Contributors
 
-Are you using this starter? Please add your page (and repo) to the end of the list via a [Pull Request](https://github.com/theodorusclarence/ts-nextjs-tailwind-starter/edit/main/README.md). 😃
+Thanks a lot for spending your time helping DevConf grow. Thanks a lot! Keep rocking 🍻
 
-## Expansion Pack 📦
+[![Contributors](https://contrib.rocks/image?repo=WebXDAO/DevConf)](https://github.com/WebXDAO/DevConf/graphs/contributors)
 
-This starter is now equipped with an [expansion pack](https://github.com/theodorusclarence/expansion-pack).
+## 🙏 Support
 
-You can easily add expansion such as React Hook Form + Components, Storybook, and more just using a single command line.
+This project needs a ⭐️ from you. Don't forget to leave a star ⭐️
 
-https://user-images.githubusercontent.com/55318172/146631994-e1cac137-1664-4cfe-950b-a96decc1eaa6.mp4
-
-Check out the [expansion pack repository](https://github.com/theodorusclarence/expansion-pack) for the commands
+![](https://camo.githubusercontent.com/37b009b52b3a9af7886f52e75cd76d1b32fef331ab1dc2108089c0ced0b7635f/68747470733a2f2f7777772e6461746f636d732d6173736574732e636f6d2f33313034392f313631383938333239372d706f77657265642d62792d76657263656c2e737667)
